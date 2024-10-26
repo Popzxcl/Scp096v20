@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/TnBz9vvr"))()
-local Window = Library.CreateLib("Popzxcl In iAM_Max HUB", "DarkTheme")
+local Window = Library.CreateLib("Popzxcl In Note_e HUB", "DarkTheme")
 
 local Tab = Window:NewTab("หน้าแรก")
 local Section = Tab:NewSection("วาป")
