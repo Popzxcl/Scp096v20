@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/TnBz9vvr"))()
-local Window = Library.CreateLib("Popzxcl In Note_e HUB", "DarkTheme")
+local Window = Library.CreateLib("Popzxcl in Note_e HUB", "DarkTheme")
 
 local Tab = Window:NewTab("ขุดหิน1")
 local Section = Tab:NewSection("วาป")
@@ -148,7 +148,7 @@ Section:NewButton("หิน36", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-337.045166015625, 140.72802734375, -677.1505126953125)
 end)
 
-local Tab = Window:NewTab("ขุดแผนที่1")
+local Tab = Window:NewTab("ขุดแผนที่")
 local Section = Tab:NewSection("แผนที่")
 
 Section:NewButton("แผนที่1", "ButtonInfo", function()
@@ -174,9 +174,6 @@ end)
 Section:NewButton("แผนที่6", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(155.58604431152344, 193.888671875, -381.8145751953125)
 end)
-
-local Tab = Window:NewTab("ขุดแผนที่2")
-local Section = Tab:NewSection("แผนที่")
 
 Section:NewButton("แผนที่7", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(965.1830444335938, 152.47645568847656, -70.88583374023438)
@@ -253,11 +250,11 @@ Section:NewButton("14. บ้านคฤหาสน์", "ButtonInfo", functio
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(42.258052825927734, 221.2606201171875, 458.5902404785156)
 end)
 
-Section:NewButton("15. ห้องกลับ", "ButtonInfo", function()
+Section:NewButton("15. ห้องลับ", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(456.3381652832031, 155.97796630859375, 513.2161865234375)
 end)
 
-Section:NewButton("16. สร้างบ้าน", "ButtonInfo", function()
+Section:NewButton("16. ก่อสร้าง1", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(232.4456024169922, 221.5924530029297, 214.12771606445312)
 end)
 
