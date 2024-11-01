@@ -1,6 +1,33 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/TnBz9vvr"))()
 local Window = Library.CreateLib("Popzxcl in Note_e HUB", "DarkTheme")
 
+local Tab = Window:NewTab("ตัดไม้")
+local Section = Tab:NewSection("วาป")
+
+Section:NewButton("1. ไม้ 5 ต้น", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1182.2974853515625, 190.93508911132812, -546.0189819335938)
+end)
+
+Section:NewButton("2. ไม้ 4 ต้น", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-41.999603271484375, 171.6706085205078, -805.0003051757812)
+end)
+
+Section:NewButton("3. ไม้ 3 ต้น", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1289.609375, 166.77369689941406, -560.1585083007812)
+end)
+
+Section:NewButton("4. ไม้ 3 ต้น", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-826.4990234375, 176.30856323242188, 232.02101135253906)
+end)
+
+Section:NewButton("5. ไม้ 3 ต้น", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-629.4876098632812, 197.8192901611328, 1009.1547241210938)
+end)
+
+Section:NewButton("6. ไม้ 3 ต้น", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-722.08251953125, 214.08644104003906, 956.535400390625)
+end)
+
 local Tab = Window:NewTab("ขุดหิน1")
 local Section = Tab:NewSection("วาป")
 
@@ -176,7 +203,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(155.5860
 end)
 
 Section:NewButton("แผนที่7", "ButtonInfo", function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(965.1830444335938, 152.47645568847656, -70.88583374023438)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(965.0009155273438, 152.77638244628906, -70.25768280029297)
 end)
 
 Section:NewButton("แผนที่8", "ButtonInfo", function()
@@ -258,11 +285,11 @@ Section:NewButton("16. ก่อสร้าง1", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(232.4456024169922, 221.5924530029297, 214.12771606445312)
 end)
 
-Section:NewButton("17. ก่อสร้าง2", "ButtonInfo", function()
+Section:NewButton("17. ห้องนิวเคลียร์", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-728.9739990234375, 134.2552032470703, -1003.3038940429688)
 end)
 
-Section:NewButton("18. ห้องนิวเคลียร์", "ButtonInfo", function()
+Section:NewButton("18. บ้านช่างฝีมือ", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(493.5867919921875, 131.2937774658203, -738.1607055664062)
 end)
 
@@ -270,31 +297,47 @@ Section:NewButton("19. ห้องเตาประติกร", "ButtonInfo"
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1022.881103515625, -76.73052215576172, -693.9287109375)
 end)
 
-local Tab = Window:NewTab("ตัดไม้")
-local Section = Tab:NewSection("วาป")
+local Tab = Window:NewTab("พ่อค้า")
+local Section = Tab:NewSection("ตำแหน่ง")
 
-Section:NewButton("1. ไม้ 5 ต้น", "ButtonInfo", function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1182.2974853515625, 190.93508911132812, -546.0189819335938)
+Section:NewButton("1. ไกล้แผนที่2-3", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1071.580078125, 187.00062561035156, 944.447509765625)
 end)
 
-Section:NewButton("2. ไม้ 4 ต้น", "ButtonInfo", function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-41.999603271484375, 171.6706085205078, -805.0003051757812)
+Section:NewButton("2. ไกล้ร้านค้า", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-687.15087890625, 189.5553741455078, 257.28369140625)
 end)
 
-Section:NewButton("3. ไม้ 3 ต้น", "ButtonInfo", function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1289.609375, 166.77369689941406, -560.1585083007812)
+Section:NewButton("3. ไกล้แผนที่10", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-421.51678466796875, 171.7788543701172, -33.9610481262207)
 end)
 
-Section:NewButton("4. ไม้ 3 ต้น", "ButtonInfo", function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-826.4990234375, 176.30856323242188, 232.02101135253906)
+Section:NewButton("4. ไกล้แผนที่5", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1050.6767578125, 174.2600555419922, -690.3825073242188)
 end)
 
-Section:NewButton("5. ไม้ 3 ต้น", "ButtonInfo", function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-629.4876098632812, 197.8192901611328, 1009.1547241210938)
+Section:NewButton("5. ข้างจานดาวเทียม", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-429.0850524902344, 271.5582580566406, -736.2989501953125)
 end)
 
-Section:NewButton("6. ไม้ 3 ต้น", "ButtonInfo", function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-722.08251953125, 214.08644104003906, 956.535400390625)
+Section:NewButton("6. ไกล้แผนที่9", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-175.0247344970703, 187.27633666992188, -937.7390747070312)
+end)
+
+Section:NewButton("7. ข้างบ้านใหญ่", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(292.5206604003906, 231.36398315429688, 23.70103645324707)
+end)
+
+Section:NewButton("8. ไกล้แผนที่7", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(959.99609375, 198.39230346679688, -197.97569274902344)
+end)
+
+Section:NewButton("9. หน้าเครื่องบิน", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(966.1306762695312, 179.95358276367188, 556.6929321289062)
+end)
+
+Section:NewButton("10. ไกล้กลองขยะ", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(262.50225830078125, 154.60340881347656, 1337.293701171875)
 end)
 
 
