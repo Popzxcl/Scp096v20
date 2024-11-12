@@ -282,7 +282,7 @@ Section:NewButton("15. ซากรถ2", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-511.6874084472656, 191.0136260986328, 239.46156311035156)
 end)
 
-Section:NewButton("16. บ้านไกล้4", "ButtonInfo", function()
+Section:NewButton("16. บ้านล้าง4", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-321.1864013671875, 195.2058868408203, 257.6373596191406)
 end)
 
