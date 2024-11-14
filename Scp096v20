@@ -282,7 +282,7 @@ Section:NewButton("15. ซากรถ2", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-511.6874084472656, 191.0136260986328, 239.46156311035156)
 end)
 
-Section:NewButton("16. บ้านล้าง4", "ButtonInfo", function()
+Section:NewButton("16. บ้านไกล้4", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-321.1864013671875, 195.2058868408203, 257.6373596191406)
 end)
 
@@ -340,6 +340,10 @@ end)
 
 Section:NewButton("31. ห้องเตาประติกร", "ButtonInfo", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1022.881103515625, -76.73052215576172, -693.9287109375)
+end)
+
+Section:NewButton("32. กระท่อม", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1044.814697265625, 137.9037628173828, 307.31915283203125)
 end)
 
 local Tab = Window:NewTab("พ่อค้า")
